@@ -2086,5 +2086,5 @@ with gr.Blocks(theme=gr.themes.Base(), title='Mangio-RVC-Web 💻') as app:
                 "-------------------------------\n"
             )
                 
-    app.queue(concurrency_count=511, max_size=1022).launch(share=False, quiet=True)
+    app.queue(concurrency_count=511, max_size=1022).launch(share=True, quiet=True)
 #endregion
